@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css"><link>
+</head>
+
+<body style="background-size: cover;">
+
+    <!-- Title -->
+    <div id="title" class="title">Yakuza 0<br></div>
+
+  <!-- Loading -->
+<div id="load">
+    <img src="assets/load.gif" style="display: block; margin: 0 auto;"> 
+</div>
+
+<!-- Canvas -->
+<div id="main" style="position: relative;">
+    <canvas id='mycanvas' style="display: none;"></canvas>
+    <div id="game_text" style="display: block;"></div>
+</div>
+
+    <!-- Dance video -->
+    <div>
+        <!-- Music -->
+        <audio id="bg_music" loop>
+            <source src="assets/music.mp3" type="audio/mpeg">
+        </audio>
+
+        <!-- Sound effect -->
+        <audio id="sound_effect" loop>
+            <source src="assets/explore.mp3" type="audio/mpeg">
+        </audio>
+
+        <!-- Dance video -->
+        <video controls id="show_video" type="video/mp4" style="display: none;">
+            
+
+        <audio id="play_sound" type="audio/mpeg"></video>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
