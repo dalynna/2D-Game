@@ -1,0 +1,2666 @@
+{
+    "start_state": "start",
+    "states": {
+        "start": {
+            "bg_img": "assets/background.jpeg",
+            "bk_img": "assets/homepage.jpeg",
+            "other_imgs": [
+                {
+                    "x_cord": 100,
+                    "y_cord": 100,
+                    "width": 500,
+                    "height": 500
+                }
+            ],
+            "next_state": [
+                {
+                    "state_name": "0,0_f",
+                    "key_input": 38
+                }
+            ]
+        },
+        "0,0_f": {
+            "bk_img": "0,0/0,0_f.png",
+            "text" : "Explore the streets of Sotenbori",
+            "next_state": [
+                {
+                    "state_name": "0,1_f",
+                    "key_input": 38
+                },
+                {
+                    "state_name": "0,0_right",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "0,0_left",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "0,0_back",
+                    "key_input": 40
+                }
+            ]
+        },
+        "0,0_right": {
+            "bk_img": "0,0/0,0_right.png",
+            "next_state": [
+                {
+                    "state_name": "0,0_f",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "0,0_back",
+                    "key_input": 40
+                }
+            ]
+        },
+        "0,0_left": {
+            "bk_img": "0,0/0,0_left.png",
+            "next_state": [
+                {
+                    "state_name": "0,0_f",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "0,0_back",
+                    "key_input": 40
+                }
+            ]
+        },
+        "0,0_back": {
+            "bk_img": "0,0/0,0_back.png",
+            "next_state": [
+                {
+                    "state_name": "0,0_right",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "0,0_left",
+                    "key_input": 37
+                }
+            ]
+        },
+        "0,1_f": {
+            "bk_img": "0,1/0,1_f.png",
+            "next_state": [
+                {
+                    "state_name": "0,2_f",
+                    "key_input": 38
+                },
+                {
+                    "state_name": "0,1_right",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "0,1_left",
+                    "key_input": 37
+                }
+            ]
+        },
+        "0,1_right": {
+            "bk_img": "0,1/0,1_right.png",
+            "next_state": [
+                {
+                    "state_name": "0,1_f",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "0,1_back",
+                    "key_input": 40
+                }
+            ]
+        },
+        "0,1_left": {
+            "bk_img": "0,1/0,1_left.png",
+            "next_state": [
+                {
+                    "state_name": "0,1_f",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "0,1_back",
+                    "key_input": 40
+                }
+            ]
+        },
+        "0,1_back": {
+            "bk_img": "0,1/0,1_back.png",
+            "next_state": [
+                {
+                    "state_name": "0,1_right",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "0,1_left",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "0,0_back",
+                    "key_input": 38
+                }
+            ]
+        },
+        "0,2_f": {
+            "bk_img": "0,2/0,2_f.png",
+            "next_state": [
+                {
+                    "state_name": "0,3_f",
+                    "key_input": 38
+                },
+                {
+                    "state_name": "0,2_right",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "0,2_left",
+                    "key_input": 37
+                }
+            ]
+        },
+        "0,2_right": {
+            "bk_img": "0,2/0,2_right.png",
+            "next_state": [
+                {
+                    "state_name": "0,2_f",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "0,2_back",
+                    "key_input": 40
+                }
+            ]
+        },
+        "0,2_left": {
+            "bk_img": "0,2/0,2_left.png",
+            "next_state": [
+                {
+                    "state_name": "0,2_f",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "0,2_back",
+                    "key_input": 40
+                }
+            ]
+        },
+        "0,2_back": {
+            "bk_img": "0,2/0,2_back.png",
+            "next_state": [
+                {
+                    "state_name": "0,2_right",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "0,2_left",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "0,1_back",
+                    "key_input": 38
+                }
+            ]
+        },
+        "0,3_f": {
+            "bk_img": "0,3/0,3_f.png",
+            "next_state": [
+                {
+                    "state_name": "0,4_f",
+                    "key_input": 38
+                },
+                {
+                    "state_name": "0,3_right",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "0,3_left",
+                    "key_input": 37
+                }
+            ]
+        },
+        "0,3_right": {
+            "bk_img": "0,3/0,3_right.png",
+            "next_state": [
+                {
+                    "state_name": "0,3_f",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "0,3_back",
+                    "key_input": 40
+                }
+            ]
+        },
+        "0,3_left": {
+            "bk_img": "0,3/0,3_left.png",
+            "next_state": [
+                {
+                    "state_name": "0,3_f",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "0,3_back",
+                    "key_input": 40
+                }
+            ]
+        },
+        "0,3_back": {
+            "bk_img": "0,3/0,3_back.png",
+            "next_state": [
+                {
+                    "state_name": "0,3_right",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "0,3_left",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "0,2_back",
+                    "key_input": 38
+                }
+            ]
+        },
+        "0,4_f": {
+            "bk_img": "0,4/0,4_f.png",
+            "next_state": [
+                {
+                    "state_name": "0,4_right",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "0,4_left",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "0,4_back",
+                    "key_input": 40
+                }
+            ]
+        },
+        "0,4_right": {
+            "bk_img": "0,4/0,4_right.png",
+            "next_state": [
+                {
+                    "state_name": "0,6_f",
+                    "key_input": 38
+                },
+                {
+                    "state_name": "0,4_f",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "0,4_back",
+                    "key_input": 40
+                }
+            ]
+        },
+        "0,4_left": {
+            "bk_img": "0,4/0,4_left.png",
+            "sound_effect" : "assets/explore.mp3",
+            "next_state": [
+                {
+                    "state_name": "0,5_f",
+                    "key_input": 38
+                },
+                {
+                    "state_name": "0,4_f",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "0,4_back",
+                    "key_input": 40
+                }
+            ]
+        },
+        "0,4_back": {
+            "bk_img": "0,4/0,4_back.png",
+            "next_state": [
+                {
+                    "state_name": "0,4_right",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "0,4_left",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "0,3_back",
+                    "key_input": 38
+                }
+            ]
+        },
+        "0,5_f": {
+            "bk_img": "0,5/0,5_f.png",
+            "next_state": [
+                {
+                    "state_name": "0,5_right_store",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "0,5_left",
+                    "key_input": 37
+                }
+            ]
+        },
+        "0,5_right_store": {
+            "bk_img": "0,5/0,5_right_store.png",
+            "next_state": [
+                {
+                    "state_name": "0,5_store_enter",
+                    "key_input": 38
+                },
+                {
+                    "state_name": "0,5_f",
+                    "key_input": 37
+                }
+            ]
+        },
+        "0,5_left": {
+            "bk_img": "0,5/0,5_left.png",
+            "next_state": [
+                {
+                    "state_name": "0,5_f",
+                    "key_input": 39
+                }
+            ]
+        },
+        "0,5_store_enter": {
+            "bk_img": "0,5/0,5_store_enter.png",
+            "next_state": [
+                {
+                    "state_name": "0,5_buy",
+                    "key_input": 38
+                }
+            ]
+        },
+        "0,5_buy": {
+            "bk_img": "0,5/0,5_buy.png",
+            "next_state": [
+                {
+                    "state_name": "0,5_buy_something",
+                    "key_input": 38
+                }
+            ]
+        },
+        "0,5_buy_something": {
+            "bk_img": "0,5/0,5_buy_something.png",
+            "text" : "Fuck yeah! I can use this for fighting",
+            "next_state": [
+                {
+                    "state_name": "0,5_come_again",
+                    "key_input": 38
+                }
+            ]
+        },
+        "0,5_come_again": {
+            "bk_img": "0,5/0,5_come_again.png",
+            "text" : "Explore the streets of Sotenbori",
+            "next_state": [
+                {
+                    "state_name": "0,5_exit",
+                    "key_input": 40
+                }
+            ]
+        },
+        "0,5_exit": {
+            "bk_img": "0,5/0,5_exit.png",
+            "next_state": [
+                {
+                    "state_name": "0,5_exit_store",
+                    "key_input": 38
+                }
+            ]
+        },
+        "0,5_exit_store": {
+            "bk_img": "0,5/0,5_exit_store.png",
+            "next_state": [
+                {
+                    "state_name": "0,5_exit_store_right",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "0,5_exit_store_left",
+                    "key_input": 37
+                }
+            ]
+        },
+        "0,5_exit_store_right": {
+            "bk_img": "0,5/0,5_exit_store_right.png",
+            "next_state": [
+                {
+                    "state_name": "0,5_exit_store",
+                    "key_input": 37
+                }
+            ]
+        },
+        "0,5_exit_store_left": {
+            "bk_img": "0,5/0,5_exit_store_left.png",
+            "next_state": [
+                {
+                    "state_name": "0,5_exit_store",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "0,6_f",
+                    "key_input": 38
+                }
+            ]
+        },
+        "0,6_f": {
+            "bk_img": "0,6/0,6_f.png",
+            "next_state": [
+                {
+                    "state_name": "0,6_right",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "0,6_left",
+                    "key_input": 37
+                }
+            ]
+        },
+        "0,6_right": {
+            "bk_img": "0,6/0,6_right.png",
+            "next_state": [
+                {
+                    "state_name": "0,6_f",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "0,6_back",
+                    "key_input": 40
+                }
+            ]
+        },
+        "0,6_left": {
+            "bk_img": "0,6/0,6_left.png",
+            "next_state": [
+                {
+                    "state_name": "0,7_f",
+                    "key_input": 38
+                },
+                {
+                    "state_name": "0,6_f",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "0,6_back",
+                    "key_input": 37
+                }
+            ]
+        },
+        "0,6_back": {
+            "bk_img": "0,6/0,6_back.png",
+            "next_state": [
+                {
+                    "state_name": "0,4_back",
+                    "key_input": 38
+                },
+                {
+                    "state_name": "0,6_left",
+                    "key_input": 39
+                }
+                ,
+                {
+                    "state_name": "0,6_right",
+                    "key_input": 37
+                }
+            ]
+        },
+        "0,7_f": {
+            "bk_img": "0,7/0,7_f.png",
+            "next_state": [
+                {
+                    "state_name": "0,8_f",
+                    "key_input": 38
+                },
+                {
+                    "state_name": "0,7_left",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "0,7_right",
+                    "key_input": 39
+                }
+            ]
+        },
+        "0,7_right": {
+            "bk_img": "0,7/0,7_right.png",
+            "next_state": [
+                {
+                    "state_name": "0,7_f",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "0,7_back",
+                    "key_input": 40
+                }
+            ]
+        },
+        "0,7_left": {
+            "bk_img": "0,7/0,7_left.png",
+            "next_state": [
+                {
+                    "state_name": "0,7_f",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "0,7_back",
+                    "key_input": 40
+                }
+            ]
+        },
+        "0,7_back": {
+            "bk_img": "0,7/0,7_back.png",
+            "next_state": [
+                {
+                    "state_name": "0,7_right",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "0,7_left",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "0,6_back",
+                    "key_input": 38
+                }
+            ]
+        },
+        "0,8_f": {
+            "bk_img": "0,8/0,8_f.png",
+            "next_state": [
+                {
+                    "state_name": "0,9_f",
+                    "key_input": 38
+                },
+                {
+                    "state_name": "0,8_left",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "0,8_right",
+                    "key_input": 39
+                }
+            ]
+        },
+        "0,8_right": {
+            "bk_img": "0,8/0,8_right.png",
+            "next_state": [
+                {
+                    "state_name": "0,8_f",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "0,8_back",
+                    "key_input": 40
+                }
+            ]
+        },
+        "0,8_left": {
+            "bk_img": "0,8/0,8_left.png",
+            "next_state": [
+                {
+                    "state_name": "0,8_f",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "0,8_back",
+                    "key_input": 40
+                }
+            ]
+        },
+        "0,8_back": {
+            "bk_img": "0,8/0,8_back.png",
+            "next_state": [
+                {
+                    "state_name": "0,8_right",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "0,8_left",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "0,7_back",
+                    "key_input": 38
+                }
+            ]
+        },
+        "0,9_f": {
+            "bk_img": "0,9/0,9_f.png",
+            "next_state": [
+                {
+                    "state_name": "1,0_f",
+                    "key_input": 38
+                },
+                {
+                    "state_name": "0,9_left",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "0,9_right",
+                    "key_input": 39
+                }
+            ]
+        },
+        "0,9_right": {
+            "bk_img": "0,9/0,9_right.png",
+            "next_state": [
+                {
+                    "state_name": "0,9_f",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "0,9_back",
+                    "key_input": 40
+                }
+            ]
+        },
+        "0,9_left": {
+            "bk_img": "0,9/0,9_left.png",
+            "next_state": [
+                {
+                    "state_name": "0,9_f",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "0,9_back",
+                    "key_input": 40
+                }
+            ]
+        },
+        "0,9_back": {
+            "bk_img": "0,9/0,9_back.png",
+            "next_state": [
+                {
+                    "state_name": "0,9_right",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "0,9_left",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "0,8_back",
+                    "key_input": 38
+                }
+            ]
+        },
+        "1,0_f": {
+            "bk_img": "1,0/1,0_f.png",
+            "next_state": [
+                {
+                    "state_name": "1,0_left",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "1,0_right",
+                    "key_input": 39
+                }
+            ]
+        },
+        "1,0_right": {
+            "bk_img": "1,0/1,0_right.png",
+            "next_state": [
+                {
+                    "state_name": "1,3_f",
+                    "key_input": 38
+                },
+                {
+                    "state_name": "1,0_f",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "1,0_back",
+                    "key_input": 40
+                }
+            ]
+        },
+        "1,0_left": {
+            "bk_img": "1,0/1,0_left.png",
+            "next_state": [
+                {
+                    "state_name": "1,0_f",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "1,0_back",
+                    "key_input": 40
+                }
+            ]
+        },
+        "1,0_back": {
+            "bk_img": "1,0/1,0_back.png",
+            "next_state": [
+                {
+                    "state_name": "1,0_right",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "1,0_left",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "0,9_back",
+                    "key_input": 38
+                }
+            ]
+        },
+        "1,3_f": {
+            "bk_img": "1,3/1,3_f.png",
+            "sound_effect" : "assets/explore.mp3",
+            "next_state": [
+                {
+                    "state_name": "1,4_f",
+                    "key_input": 38
+                },
+                {
+                    "state_name": "1,3_right",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "1,3_left_food",
+                    "key_input": 37
+                }
+            ]
+        },
+        "1,3_left_food": {
+            "bk_img": "1,3/1,3_left_food.png",
+            "next_state": [
+                {
+                    "state_name": "1,3_food",
+                    "key_input": 38
+                },
+                {
+                    "state_name": "1,3_f",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "1,3_back",
+                    "key_input": 40
+                }
+            ]
+        },
+        "1,3_right": {
+            "bk_img": "1,3/1,3_right.png",
+            "next_state": [
+                {
+                    "state_name": "1,3_f",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "1,3_back",
+                    "key_input": 40
+                }
+            ]
+        },
+        "1,3_back": {
+            "bk_img": "1,3/1,3_back.png",
+            "next_state": [
+                {
+                    "state_name": "1,3_left_food",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "1,3_right",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "1,0_back",
+                    "key_input": 38
+                }
+            ]
+        },
+        "1,3_food": {
+            "bk_img": "1,3/1,3_food.png",
+            "next_state": [
+                {
+                    "state_name": "1,3_buy_food",
+                    "key_input": 38
+                }
+            ]
+        },
+        "1,3_buy_food": {
+            "bk_img": "1,3/1,3_buy_food.png",
+            "next_state": [
+                {
+                    "state_name": "1,3_eat",
+                    "key_input": 38
+                }
+            ]
+        },
+        "1,3_eat": {
+            "bk_img": "1,3/1,3_eat.png",
+            "text" : "Mhm yummy!",
+            "next_state": [
+                {
+                    "state_name": "1,3_leave",
+                    "key_input": 38
+                }
+            ]
+        },
+        "1,3_leave": {
+            "bk_img": "1,3/1,3_leave.png",
+            "next_state": [
+                {
+                    "state_name": "1,3_new_exit_left",
+                    "key_input": 40
+                }
+            ]
+        },
+        "1,3_new_exit_left": {
+            "bk_img": "1,3/1,3_new_exit_left.png",
+            "text" : "Explore the streets of Sotenbori",
+            "next_state": [
+                {
+                    "state_name": "1,3_new_back",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "1,3_f",
+                    "key_input": 37
+                }
+            ]
+        },
+
+        "1,3_new_back": {
+            "bk_img": "1,3/1,3_new_back.png",
+            "next_state": [
+                {
+                    "state_name": "1,3_new_exit_left",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "1,0_back",
+                    "key_input": 38
+                }
+            ]
+        },
+        "1,4_f": {
+            "bk_img": "1,4/1,4_f.png",
+            "next_state": [
+                {
+                    "state_name": "1,5_f",
+                    "key_input": 38
+                },
+                {
+                    "state_name": "1,4_left",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "1,4_right",
+                    "key_input": 39
+                }
+            ]
+        },
+        "1,4_right": {
+            "bk_img": "1,4/1,4_right.png",
+            "next_state": [
+                {
+                    "state_name": "1,4_f",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "1,4_back",
+                    "key_input": 40
+                }
+            ]
+        },
+        "1,4_left": {
+            "bk_img": "1,4/1,4_left.png",
+            "next_state": [
+                {
+                    "state_name": "1,4_f",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "1,4_back",
+                    "key_input": 40
+                }
+            ]
+        },
+        "1,4_back": {
+            "bk_img": "1,4/1,4_back.png",
+            "next_state": [
+                {
+                    "state_name": "1,4_right",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "1,4_left",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "1,3_back",
+                    "key_input": 38
+                }
+            ]
+        },
+        "1,5_f": {
+            "bk_img": "1,5/1,5_f.png",
+            "next_state": [
+                {
+                    "state_name": "1,6_f",
+                    "key_input": 38
+                },
+                {
+                    "state_name": "1,5_left",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "1,5_right",
+                    "key_input": 39
+                }
+            ]
+        },
+        "1,5_right": {
+            "bk_img": "1,5/1,5_right.png",
+            "next_state": [
+                {
+                    "state_name": "1,5_f",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "1,5_back",
+                    "key_input": 40
+                }
+            ]
+        },
+        "1,5_left": {
+            "bk_img": "1,5/1,5_left.png",
+            "next_state": [
+                {
+                    "state_name": "1,5_f",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "1,5_back",
+                    "key_input": 40
+                }
+            ]
+        },
+        "1,5_back": {
+            "bk_img": "1,5/1,5_back.png",
+            "next_state": [
+                {
+                    "state_name": "1,5_right",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "1,5_left",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "1,4_back",
+                    "key_input": 38
+                }
+            ]
+        },
+        "1,6_f": {
+            "bk_img": "1,6/1,6_f.png",
+            "next_state": [
+                {
+                    "state_name": "1,7_f",
+                    "key_input": 38
+                },
+                {
+                    "state_name": "1,6_left",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "1,6_right",
+                    "key_input": 39
+                }
+            ]
+        },
+        "1,6_right": {
+            "bk_img": "1,6/1,6_right.png",
+            "next_state": [
+                {
+                    "state_name": "1,6_f",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "1,6_back",
+                    "key_input": 40
+                }
+            ]
+        },
+        "1,6_left": {
+            "bk_img": "1,6/1,6_left.png",
+            "next_state": [
+                {
+                    "state_name": "1,6_f",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "1,6_back",
+                    "key_input": 40
+                }
+            ]
+        },
+        "1,6_back": {
+            "bk_img": "1,6/1,6_back.png",
+            "next_state": [
+                {
+                    "state_name": "1,6_right",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "1,6_left",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "1,5_back",
+                    "key_input": 38
+                }
+            ]
+        },
+        "1,7_f": {
+            "bk_img": "1,7/1,7_f.png",
+            "sound_effect" : "assets/explore.mp3",
+            "next_state": [
+                {
+                    "state_name": "1,9_f",
+                    "key_input": 38
+                },
+                {
+                    "state_name": "1,7_right",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "1,7_left",
+                    "key_input": 37
+                }
+            ]
+        },
+        "1,7_right": {
+            "bk_img": "1,7/1,7_right.png",
+            "next_state": [
+                {
+                    "state_name": "1,7_f",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "1,7_back",
+                    "key_input": 40
+                }
+            ]
+        },
+        "1,7_left": {
+            "bk_img": "1,7/1,7_left.png",
+            "next_state": [
+                {
+                    "state_name": "1,7_enter",
+                    "key_input": 38
+                },
+                {
+                    "state_name": "1,7_f",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "1,7_back",
+                    "key_input": 40
+                }
+            ]
+        },
+    "1,7_back": {
+        "bk_img": "1,7/1,7_back.png",
+        "next_state": [
+            {
+                "state_name": "1,7_left",
+                "key_input": 37
+            },
+            {
+                "state_name": "1,7_right",
+                "key_input": 39
+            },
+            {
+                "state_name": "1,6_back",
+                "key_input": 38
+            }
+
+        ]
+    },
+        "1,7_enter": {
+            "bk_img": "1,7/1,7_enter.png",
+            "next_state": [
+                {
+                    "state_name": "1,7_in_f",
+                    "key_input": 38
+                },
+                {
+                    "state_name": "1,7_new_exit",
+                    "key_input": 40
+                }
+            ]
+        },
+        "1,7_in_f": {
+            "bk_img": "1,7/1,7_in_f.png",
+            "next_state": [
+                {
+                    "state_name": "1,7_play",
+                    "key_input": 38
+                }
+            ]
+        },
+        "1,7_play": {
+            "bk_img": "1,7/1,7_play.png",
+            "text" : "Damn I feel like a kid again",
+            "next_state": [
+                {
+                    "state_name": "1,7_play_arcade",
+                    "key_input": 38
+                }
+            ]
+        },
+        "1,7_play_arcade": {
+            "bk_img": "1,7/1,7_play_arcade.png",
+            "next_state": [
+                {
+                    "state_name": "1,7_prize",
+                    "key_input": 38
+                }
+            ]
+        },
+        "1,7_prize": {
+            "bk_img": "1,7/1,7_prize.png",
+            "next_state": [
+                {
+                    "state_name": "1,7_arcade_back",
+                    "key_input": 40
+                }
+            ]
+        },
+        "1,7_arcade_back": {
+            "bk_img": "1,7/1,7_arcade_back.png",
+            "next_state": [
+                {
+                    "state_name": "1,7_leave",
+                    "key_input": 40
+                }
+            ]
+        },
+        "1,7_leave": {
+            "bk_img": "1,7/1,7_leave.png",
+            "next_state": [
+                {
+                    "state_name": "1,7_new_exit",
+                    "key_input": 38
+                }
+            ]
+        },
+        "1,7_new_exit": {
+            "bk_img": "1,7/1,7_new_exit.png",
+            "next_state": [
+                {
+                    "state_name": "1,7_new_f",
+                    "key_input": 38
+                }
+            ]
+        },
+        "1,7_new_f": {
+            "bk_img": "1,7/1,7_new_f.png",
+            "text" : "Explore the streets of Sotenbori",
+            "next_state": [
+                {
+                    "state_name": "1,7_new_left",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "1,7_new_back",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "1,7_new_back",
+                    "key_input": 40
+                }
+            ]
+        },
+
+        "1,7_new_left": {
+            "bk_img": "1,7/1,7_new_left.png",
+            "next_state": [
+                {
+                    "state_name": "1,9_f",
+                    "key_input": 38
+                },
+                {
+                    "state_name": "1,7_new_enter",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "1,7_new_f",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "1,7_new_back",
+                    "key_input": 40
+                }
+            ]
+        },
+
+        "1,7_new_back": {
+            "bk_img": "1,7/1,7_new_back.png",
+            "next_state": [
+                {
+                    "state_name": "1,7_new_f",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "1,7_new_enter",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "1,6_back",
+                    "key_input": 38
+                }
+            ]
+        },
+
+        "1,7_new_enter": {
+            "bk_img": "1,7/1,7_new_enter.png",
+            "next_state": [
+                {
+                    "state_name": "1,7_enter",
+                    "key_input": 38
+                },
+                {
+                    "state_name": "1,7_new_back",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "1,7_new_left",
+                    "key_input": 39
+                }
+            ]
+        },
+
+
+        "1,9_f": {
+            "bk_img": "1,9/1,9_f.png",
+            "next_state": [
+                {
+                    "state_name": "1,9_right",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "1,9_left",
+                    "key_input": 37
+                }
+            ]
+        },
+
+        "1,9_right": {
+            "bk_img": "1,9/1,9_right.png",
+            "next_state": [
+                {
+                    "state_name": "2,1_f",
+                    "key_input": 38
+                },
+                {
+                    "state_name": "1,9_f",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "1,9_back",
+                    "key_input": 40
+                }
+            ]
+        },
+
+        "1,9_left": {
+            "bk_img": "1,9/1,9_left.png",
+            "next_state": [
+                {
+                    "state_name": "1,9_f",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "1,9_back",
+                    "key_input": 40
+                }
+            ]
+        },
+
+        "1,9_back": {
+            "bk_img": "1,9/1,9_back.png",
+            "next_state": [
+                {
+                    "state_name": "1,9_left",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "1,9_right",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "1,7_back",
+                    "key_input": 38
+                }
+            ]
+        },
+
+        "2,1_f": {
+            "bk_img": "2,1/2,1_f.png",
+            "next_state": [
+                {
+                    "state_name": "2,2_f",
+                    "key_input": 38
+                },
+                {
+                    "state_name": "2,1_right",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "2,1_left",
+                    "key_input": 37
+                }
+            ]
+        },
+        
+        "2,1_right": {
+            "bk_img": "2,1/2,1_right.png",
+            "next_state": [
+                {
+                    "state_name": "2,1_f",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "2,1_back",
+                    "key_input": 40
+                }
+            ]
+        },
+
+        "2,1_left": {
+            "bk_img": "2,1/2,1_left.png",
+            "next_state": [
+                {
+                    "state_name": "2,1_f",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "2,1_back",
+                    "key_input": 40
+                }
+            ]
+        },
+
+        "2,1_back": {
+            "bk_img": "2,1/2,1_back.png",
+            "next_state": [
+                {
+                    "state_name": "2,1_left",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "2,1_right",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "1,9_back",
+                    "key_input": 38
+                }
+            ]
+        },
+
+        "2,2_f": {
+            "bk_img": "2,2/2,2_f.png",
+            "next_state": [
+                {
+                    "state_name": "2,3_f",
+                    "key_input": 38
+                },
+                {
+                    "state_name": "2,2_right",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "2,2_left",
+                    "key_input": 37
+                }
+            ]
+        },
+        
+        "2,2_right": {
+            "bk_img": "2,2/2,2_right.png",
+            "next_state": [
+                {
+                    "state_name": "2,2_f",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "2,2_back",
+                    "key_input": 40
+                }
+            ]
+        },
+
+        "2,2_left": {
+            "bk_img": "2,2/2,2_left.png",
+            "next_state": [
+                {
+                    "state_name": "2,2_f",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "2,2_back",
+                    "key_input": 40
+                }
+            ]
+        },
+
+        "2,2_back": {
+            "bk_img": "2,2/2,2_back.png",
+            "next_state": [
+                {
+                    "state_name": "2,2_left",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "2,2_right",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "2,1_back",
+                    "key_input": 38
+                }
+            ]
+        },
+
+        "2,3_f": {
+            "bk_img": "2,3/2,3_f.png",
+            "next_state": [
+                {
+                    "state_name": "2,3_right",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "2,3_left",
+                    "key_input": 37
+                }
+            ]
+        },
+        
+        "2,3_right": {
+            "bk_img": "2,3/2,3_right.png",
+            "next_state": [
+                {
+                    "state_name": "2,4_f",
+                    "key_input": 38
+                },
+                {
+                    "state_name": "2,3_f",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "2,3_back",
+                    "key_input": 40
+                }
+            ]
+        },
+
+        "2,3_left": {
+            "bk_img": "2,3/2,3_left.png",
+            "next_state": [
+                {
+                    "state_name": "2,3_f",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "2,3_back",
+                    "key_input": 40
+                }
+            ]
+        },
+
+        "2,3_back": {
+            "bk_img": "2,3/2,3_back.png",
+            "next_state": [
+                {
+                    "state_name": "2,3_left",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "2,3_right",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "2,2_back",
+                    "key_input": 38
+                }
+            ]
+        },
+
+        "2,4_f": {
+            "bk_img": "2,4/2,4_f.png",
+            "next_state": [
+                {
+                    "state_name": "2,5_f",
+                    "key_input": 38
+                },
+                {
+                    "state_name": "2,4_right",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "2,4_left",
+                    "key_input": 37
+                }
+            ]
+        },
+        
+        "2,4_right": {
+            "bk_img": "2,4/2,4_right.png",
+            "next_state": [
+                {
+                    "state_name": "2,5_f",
+                    "key_input": 38
+                },
+                {
+                    "state_name": "2,4_f",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "2,4_back",
+                    "key_input": 40
+                }
+            ]
+        },
+
+        "2,4_left": {
+            "bk_img": "2,4/2,4_left.png",
+            "next_state": [
+                {
+                    "state_name": "2,4_f",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "2,4_back",
+                    "key_input": 40
+                }
+            ]
+        },
+
+        "2,4_back": {
+            "bk_img": "2,4/2,4_back.png",
+            "next_state": [
+                {
+                    "state_name": "2,4_left",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "2,4_right",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "2,3_back",
+                    "key_input": 38
+                }
+            ]
+        },
+        "2,5_f": {
+            "bk_img": "2,5/2,5_f.png",
+            "next_state": [
+                {
+                    "state_name": "2,6_f",
+                    "key_input": 38
+                },
+                {
+                    "state_name": "2,5_right",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "2,5_left",
+                    "key_input": 37
+                }
+            ]
+        },
+        
+        "2,5_right": {
+            "bk_img": "2,5/2,5_right.png",
+            "next_state": [
+                {
+                    "state_name": "2,5_f",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "2,5_back",
+                    "key_input": 40
+                }
+            ]
+        },
+
+        "2,5_left": {
+            "bk_img": "2,5/2,5_left.png",
+            "next_state": [
+                {
+                    "state_name": "2,5_f",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "2,5_back",
+                    "key_input": 40
+                }
+            ]
+        },
+
+        "2,5_back": {
+            "bk_img": "2,5/2,5_back.png",
+            "next_state": [
+                {
+                    "state_name": "2,5_left",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "2,5_right",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "2,4_back",
+                    "key_input": 38
+                }
+            ]
+        },
+
+        "2,6_f": {
+            "bk_img": "2,6/2,6_f.png",
+            "sound_effect" : "assets/explore.mp3",
+            "next_state": [
+                {
+                    "state_name": "2,7_f",
+                    "key_input": 38
+                },
+                {
+                    "state_name": "2,6_left",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "2,6_right",
+                    "key_input": 39
+                }
+            ]
+        },
+
+        "2,6_right": {
+            "bk_img": "2,6/2,6_right.png",
+            "next_state": [
+                {
+                    "state_name": "2,6_f",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "2,6_back",
+                    "key_input": 40
+                }
+            ]
+        }, 
+
+        "2,6_left": {
+            "bk_img": "2,6/2,6_left.png",
+            "next_state": [
+                {
+                    "state_name": "2,6_enter",
+                    "key_input": 38
+                },
+                {
+                    "state_name": "2,6_f",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "2,6_back",
+                    "key_input": 40
+                }
+            ]
+        },
+
+        "2,6_back": {
+            "bk_img": "2,6/2,6_back.png",
+            "next_state": [
+                {
+                    "state_name": "2,6_right",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "2,6_left",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "2,5_back",
+                    "key_input": 38
+                }
+            ]
+        },
+
+        "2,6_enter": {
+            "bk_img": "2,6/2,6_enter.png",
+            "next_state": [
+                {
+                    "state_name": "2,6_pay",
+                    "key_input": 38
+                },
+                {
+                    "state_name": "2,6_leave_out_f",
+                    "key_input": 40
+                }
+
+            ]
+        },
+
+        "2,6_pay": {
+            "bk_img": "2,6/2,6_pay.png",
+            "next_state": [
+                {
+                    "state_name": "2,6_enjoy",
+                    "key_input": 38
+                }
+            ]
+        },
+
+        "2,6_enjoy": {
+            "bk_img": "2,6/2,6_enjoy.png",
+            "next_state": [
+                {
+                    "state_name": "2,6_club_f",
+                    "key_input": 38
+                }
+            ]
+        },
+
+        "2,6_club_f": {
+            "bk_img": "2,6/2,6_club_f.png",
+            "next_state": [
+                {
+                    "state_name": "2,6b_club_f",
+                    "key_input": 38
+                },
+                {
+                    "state_name": "2,6_club_right",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "2,6_club_left",
+                    "key_input": 37
+                }
+            ]
+        },
+
+        "2,6_club_right": {
+            "bk_img": "2,6/2,6_club_right.png",
+            "next_state": [
+                {
+                    "state_name": "2,6_club_f",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "2,6_club_back",
+                    "key_input": 40
+                }
+            ]
+        },
+
+        "2,6_club_left": {
+            "bk_img": "2,6/2,6_club_left.png",
+            "next_state": [
+                {
+                    "state_name": "2,6_club_f",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "2,6_club_back",
+                    "key_input": 40
+                }
+            ]
+        },
+
+        "2,6_club_back": {
+            "bk_img": "2,6/2,6_club_back.png",
+            "next_state": [
+                {
+                    "state_name": "2,6_club_right",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "2,6_club_left",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "2,6_leave_out_f",
+                    "key_input": 38
+                }
+            ]
+        },
+        
+        "2,6b_club_f": {
+            "bk_img": "2,6/2,6b_club_f.png",
+            "next_state": [
+                {
+                    "state_name": "2,6b_club_right",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "2,6b_club_left",
+                    "key_input": 37
+                }
+            ]
+        },
+
+        "2,6b_club_right": {
+            "bk_img": "2,6/2,6b_club_right.png",
+            "next_state": [
+                {
+                    "state_name": "2,6c_club_f",
+                    "key_input": 38
+                },
+                {
+                    "state_name": "2,6b_club_f",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "2,6b_club_back",
+                    "key_input": 40
+                }
+            ]
+        },
+
+        "2,6b_club_left": {
+            "bk_img": "2,6/2,6b_club_left.png",
+            "next_state": [
+                {
+                    "state_name": "2,6b_club_f",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "2,6b_club_back",
+                    "key_input": 40
+                }
+            ]
+        },
+
+        "2,6b_club_back": {
+            "bk_img": "2,6/2,6b_club_back.png",
+            "next_state": [
+                {
+                    "state_name": "2,6b_club_right",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "2,6b_club_left",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "2,6_club_back",
+                    "key_input": 38
+                }
+            ]
+        },
+
+        "2,6c_club_f": {
+            "bk_img": "2,6/2,6c_club_f.png",
+            "text" : "Aw shit I'm about to fuck it up",
+            "next_state": [
+                {
+                    "state_name": "2,6d_f",
+                    "key_input": 38
+                },
+                {
+                    "state_name": "2,6c_club_right",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "2,6c_club_left",
+                    "key_input": 37
+                }
+            ]
+        },
+
+        "2,6c_club_right": {
+            "bk_img": "2,6/2,6c_club_right.png",
+            "next_state": [
+                {
+                    "state_name": "2,6c_club_f",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "2,6c_club_back",
+                    "key_input": 40
+                }
+            ]
+        },
+
+        "2,6c_club_left": {
+            "bk_img": "2,6/2,6c_club_left.png",
+            "next_state": [
+                {
+                    "state_name": "2,6c_club_f",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "2,6c_club_back",
+                    "key_input": 40
+                }
+            ]
+        },
+
+        "2,6c_club_back": {
+            "bk_img": "2,6/2,6c_club_back.png",
+            "next_state": [
+                {
+                    "state_name": "2,6c_club_right",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "2,6c_club_left",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "2,6b_club_back",
+                    "key_input": 38
+                }
+            ]
+        },
+
+        "2,6d_f": {
+            "bk_img": "2,6/2,6d_f.png",
+            "next_state": [
+                {
+                    "state_name": "2,6_dance",
+                    "key_input": 38
+                }
+
+            ]
+        },
+
+        "2,6_dance": {
+            "bk_img": "2,6/2,6_dance.png",
+            "next_state": [
+                {
+                    "state_name": "2,6_dance1",
+                    "key_input": 38
+                }
+            ]
+        },
+
+        "2,6_dance1": {
+            "bk_img": "2,6/2,6_dance1.png",
+            "show_video" : "assets/dance.mp4",
+            "next_state": [
+                {
+                    "state_name": "2,6_leave_club",
+                    "key_input": 38
+                },
+                {
+                    "state_name": "2,6_leave_club",
+                    "key_input": 40
+                }
+            ]
+        },
+        
+        "2,6_leave_club": {
+            "bk_img": "2,6/2,6_leave_club.png",
+            "next_state": [
+                {
+                    "state_name": "2,6_dance_leave_f",
+                    "key_input": 40
+                }
+            ]
+        },
+
+        "2,6_dance_leave_f": {
+            "bk_img": "2,6/2,6_dance_leave_f.png",
+            "next_state": [
+                {
+                    "state_name": "2,6b_dance_leave_f",
+                    "key_input": 38
+                },
+                {
+                    "state_name": "2,6_dance_leave_right",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "2,6_dance_leave_left",
+                    "key_input": 37
+                }
+            ]
+        },
+
+        "2,6_dance_leave_right": {
+            "bk_img": "2,6/2,6_dance_leave_right.png",
+            "next_state": [
+                {
+                    "state_name": "2,6_dance_leave_f",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "2,6_dance_leave_back",
+                    "key_input": 40
+                }
+            ]
+        },
+
+        "2,6_dance_leave_left": {
+            "bk_img": "2,6/2,6_dance_leave_left.png",
+            "next_state": [
+                {
+                    "state_name": "2,6_dance_leave_f",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "2,6_dance_leave_back",
+                    "key_input": 40
+                }
+            ]
+        },
+
+
+        "2,6_dance_leave_back": {
+            "bk_img": "2,6/2,6_dance_leave_back.png",
+            "next_state": [
+                {
+                    "state_name": "2,6_dance_leave_right",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "2,6_dance_leave_left",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "2,6d_f",
+                    "key_input": 38
+                }
+            ]
+        },
+
+        "2,6b_dance_leave_f": {
+            "bk_img": "2,6/2,6b_dance_leave_f.png",
+            "next_state": [
+                {
+                    "state_name": "2,6b_dance_leave_right",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "2,6b_dance_leave_left",
+                    "key_input": 37
+                }
+            ]
+        },
+
+        "2,6b_dance_leave_right": {
+            "bk_img": "2,6/2,6b_dance_leave_right.png",
+            "next_state": [
+                {
+                    "state_name": "2,6b_dance_leave_f",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "2,6b_dance_leave_back",
+                    "key_input": 40
+                }
+            ]
+        },
+
+        "2,6b_dance_leave_left": {
+            "bk_img": "2,6/2,6b_dance_leave_left.png",
+            "next_state": [
+                {
+                    "state_name": "2,6c_dance_leave_f",
+                    "key_input": 38
+                },
+                {
+                    "state_name": "2,6b_dance_leave_f",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "2,6b_dance_leave_back",
+                    "key_input": 40
+                }
+            ]
+        },
+
+        "2,6b_dance_leave_back": {
+            "bk_img": "2,6/2,6b_dance_leave_back.png",
+            "next_state": [
+                {
+                    "state_name": "2,6b_dance_leave_right",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "2,6b_dance_leave_left",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "2,6_dance_leave_back",
+                    "key_input": 38
+                }
+            ]
+        },
+
+        "2,6c_dance_leave_f": {
+            "bk_img": "2,6/2,6c_dance_leave_f.png",
+            "next_state": [
+                {
+                    "state_name": "2,6_leave_out_f",
+                    "key_input": 38
+                },
+                {
+                    "state_name": "2,6c_dance_leave_right",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "2,6c_dance_leave_left",
+                    "key_input": 37
+                }
+            ]
+        },
+
+        "2,6c_dance_leave_right": {
+            "bk_img": "2,6/2,6c_dance_leave_right.png",
+            "next_state": [
+                {
+                    "state_name": "2,6c_dance_leave_f",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "2,6c_dance_leave_back",
+                    "key_input": 40
+                }
+            ]
+        },
+
+
+        "2,6c_dance_leave_left": {
+            "bk_img": "2,6/2,6c_dance_leave_left.png",
+            "next_state": [
+                {
+                    "state_name": "2,6c_dance_leave_f",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "2,6c_dance_leave_back",
+                    "key_input": 40
+                }
+            ]
+        },
+
+        "2,6c_dance_leave_back": {
+            "bk_img": "2,6/2,6c_dance_leave_back.png",
+            "next_state": [
+                {
+                    "state_name": "2,6c_dance_leave_right",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "2,6c_dance_leave_left",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "2,6b_dance_leave_back",
+                    "key_input": 38
+                }
+            ]
+        },
+
+        "2,6_leave_out_f": {
+            "bk_img": "2,6/2,6_leave_out_f.png",
+            "text" : "Explore the streets of Sotenbori",
+            "next_state": [
+                {
+                    "state_name": "2,6_leave_out_right",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "2,6_leave_out_left",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "2,6_go_back_in_club_out",
+                    "key_input": 40
+                }
+            ]
+         },
+
+        "2,6_leave_out_right": {
+            "bk_img": "2,6/2,6_leave_out_right.png",
+            "next_state": [
+                {
+                    "state_name": "2,5_back",
+                    "key_input": 38
+                },
+                {
+                    "state_name": "2,6_leave_out_f",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "2,6_go_back_in_club_out",
+                    "key_input": 40
+                }
+            ]
+        },
+
+        "2,6_leave_out_left": {
+            "bk_img": "2,6/2,6_leave_out_left.png",
+            "next_state": [
+                {
+                    "state_name": "2,7_f",
+                    "key_input": 38
+                },
+                {
+                    "state_name": "2,6_leave_out_f",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "2,6_go_back_in_club_out",
+                    "key_input": 40
+                }
+            ]
+        },
+
+        "2,6_go_back_in_club_out": {
+            "bk_img": "2,6/2,6_go_back_in_club_out.png",
+            "next_state": [
+                {
+                    "state_name": "2,6_leave_out_right",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "2,6_leave_out_left",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "2,6_enter",
+                    "key_input": 38
+                }
+            ]
+        },
+
+        "2,7_f": {
+            "bk_img": "2,7/2,7_f.png",
+            "next_state": [
+                {
+                    "state_name": "2,8_f",
+                    "key_input": 38
+                },
+                {
+                    "state_name": "2,7_right",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "2,7_left",
+                    "key_input": 37
+                }
+            ]
+         },
+
+         "2,7_right": {
+            "bk_img": "2,7/2,7_right.png",
+            "next_state": [
+                {
+                    "state_name": "2,7_f",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "2,7_back",
+                    "key_input": 40
+                }
+            ]
+         },
+
+         "2,7_left": {
+            "bk_img": "2,7/2,7_left.png",
+            "next_state": [
+                {
+                    "state_name": "2,7_f",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "2,7_back",
+                    "key_input": 40
+                }
+            ]
+         },
+
+         "2,7_back": {
+            "bk_img": "2,7/2,7_back.png",
+            "next_state": [
+                {
+                    "state_name": "2,7_right",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "2,7_left",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "2,6_back",
+                    "key_input": 38
+                }
+            ]
+         },
+
+         "2,8_f": {
+            "bk_img": "2,8/2,8_f.png",
+            "next_state": [
+                {
+                    "state_name": "2,9_f",
+                    "key_input": 38
+                },
+                {
+                    "state_name": "2,8_right",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "2,8_left",
+                    "key_input": 37
+                }
+            ]
+         },
+
+         "2,8_right": {
+            "bk_img": "2,8/2,8_right.png",
+            "next_state": [
+                {
+                    "state_name": "2,8_f",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "2,8_back",
+                    "key_input": 40
+                }
+            ]
+         },
+
+         "2,8_left": {
+            "bk_img": "2,8/2,8_left.png",
+            "next_state": [
+                {
+                    "state_name": "2,8_f",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "2,8_back",
+                    "key_input": 40
+                }
+            ]
+         },
+
+         "2,8_back": {
+            "bk_img": "2,8/2,8_back.png",
+            "next_state": [
+                {
+                    "state_name": "2,8_right",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "2,8_left",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "2,7_back",
+                    "key_input": 38
+                }
+            ]
+         },
+
+         "2,9_f": {
+            "bk_img": "2,9/2,9_f.png",
+            "sound_effect" : "assets/explore.mp3",
+            "next_state": [
+                {
+                    "state_name": "3,0_f",
+                    "key_input": 38
+                },
+                {
+                    "state_name": "2,9_right",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "2,9_left",
+                    "key_input": 37
+                }
+            ]
+         },
+
+         "2,9_right": {
+            "bk_img": "2,9/2,9_right.png",
+            "next_state": [
+                {
+                    "state_name": "2,9_enter",
+                    "key_input": 38
+                },
+                {
+                    "state_name": "2,9_f",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "2,9_back",
+                    "key_input": 40
+                },
+                {
+                    "state_name": "2,9_exit_left",
+                    "key_input": 39
+                }
+            ]
+         },
+
+         "2,9_enter": {
+            "bk_img": "2,9/2,9_enter.png",
+            "next_state": [
+                {
+                    "state_name": "2,9_talk",
+                    "key_input": 38
+                }
+            ]
+         },
+
+         "2,9_talk": {
+            "bk_img": "2,9/2,9_talk.png",
+            "next_state": [
+                {
+                    "state_name": "2,9_buy",
+                    "key_input": 38
+                }
+            ]
+         },
+
+         "2,9_buy": {
+            "bk_img": "2,9/2,9_buy.png",
+            "next_state": [
+                {
+                    "state_name": "2,9_buy_something",
+                    "key_input": 38
+                }
+            ]
+         },
+
+         "2,9_buy_something": {
+            "bk_img": "2,9/2,9_buy_something.png",
+            "next_state": [
+                {
+                    "state_name": "2,9_thank",
+                    "key_input": 38
+                }
+            ]
+         },
+
+         "2,9_thank": {
+            "bk_img": "2,9/2,9_thank.png",
+            "next_state": [
+                {
+                    "state_name": "2,9_exit",
+                    "key_input": 40
+                }
+            ]
+         },
+
+         "2,9_exit": {
+            "bk_img": "2,9/2,9_exit.png",
+            "next_state": [
+                {
+                    "state_name": "2,9_exit_out",
+                    "key_input": 38
+                }
+            ]
+         },
+
+         "2,9_exit_out": {
+            "bk_img": "2,9/2,9_exit_out.png",
+            "next_state": [
+                {
+                    "state_name": "2,9_exit_f",
+                    "key_input": 38
+                }
+            ]
+         },
+
+         "2,9_exit_f": {
+            "bk_img": "2,9/2,9_exit_f.png",
+            "next_state": [
+                {
+                    "state_name": "2,9_exit_right",
+                    "key_input": 39
+                }, 
+                {
+                    "state_name": "2,9_exit_left",
+                    "key_input": 37
+                }
+            ]
+         },
+
+         "2,9_exit_left": {
+            "bk_img": "2,9/2,9_exit_left.png",
+            "next_state": [
+                {
+                    "state_name": "2,9_exit_f",
+                    "key_input": 39
+                }, 
+                {
+                    "state_name": "2,9_right",
+                    "key_input": 37
+                }, 
+                {
+                    "state_name": "2,8_back",
+                    "key_input": 38
+                }
+            ]
+         },
+
+         "2,9_exit_right": {
+            "bk_img": "2,9/2,9_exit_right.png",
+            "next_state": [
+                {
+                    "state_name": "2,9_exit_f",
+                    "key_input": 37
+                }, 
+                {
+                    "state_name": "2,9_right",
+                    "key_input": 39
+                }, 
+                {
+                    "state_name": "3,0_f",
+                    "key_input": 38
+                }
+            ]
+         },
+
+
+         "2,9_left": {
+            "bk_img": "2,9/2,9_left.png",
+            "next_state": [
+                {
+                    "state_name": "2,9_f",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "2,9_back",
+                    "key_input": 40
+                }
+            ]
+         },
+
+         "2,9_back": {
+            "bk_img": "2,9/2,9_back.png",
+            "next_state": [
+                {
+                    "state_name": "2,9_right",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "2,9_left",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "2,8_back",
+                    "key_input": 38
+                }
+            ]
+         },
+
+         "3,0_f": {
+            "bk_img": "3,0/3,0_f.png",
+            "text" : "You have explored everything!",
+            "next_state": [
+                {
+                    "state_name": "0,6_back",
+                    "key_input": 38
+                },
+                {
+                    "state_name": "3,0_right",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "3,0_left",
+                    "key_input": 37
+                }
+            ]
+         },
+
+         "3,0_right": {
+            "bk_img": "3,0/3,0_right.png",
+            "next_state": [
+                {
+                    "state_name": "3,0_f",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "3,0_back",
+                    "key_input": 40
+                }
+            ]
+         },
+
+         "3,0_left": {
+            "bk_img": "3,0/3,0_left.png",
+            "next_state": [
+                {
+                    "state_name": "3,0_f",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "3,0_back",
+                    "key_input": 40
+                }
+            ]
+         },
+
+         "3,0_back": {
+            "bk_img": "3,0/3,0_back.png",
+            "next_state": [
+                {
+                    "state_name": "3,0_right",
+                    "key_input": 39
+                },
+                {
+                    "state_name": "3,0_left",
+                    "key_input": 37
+                },
+                {
+                    "state_name": "2,9_back",
+                    "key_input": 38
+                }
+            ]
+         }
+        
+    }
+}
